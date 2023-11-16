@@ -1,0 +1,15 @@
+{% extends '_layouts/site' %}
+
+{% set heros = entry.heros.all()|default(false) %}
+{% block hero %}
+    {% for hero in heros %}
+        {% include './_components/heros/' ~ hero.type ~ '.twig' %}
+    {% endfor %}
+{% endblock %}
+
+{% set sections = entry.sections.all()|default(false) %}
+{% block main %}
+    {% for section in sections %}
+        {% include './_components/sections/' ~ section.type ~ '.twig' %}
+    {% endfor %}
+{% endblock %}

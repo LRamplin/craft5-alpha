@@ -1,0 +1,63 @@
+fieldLayouts:
+  7349913a-eaea-4830-b48f-3dc04f84bff9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 02d1e75d-fbef-4293-8f08-41b618bb592f # Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17453640-e636-43ad-9aa5-be5191f278d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 34bd3b6f-3897-43d1-b5ac-46e96103a2bb # Copy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c679597c-2888-481c-8a41-038de14dfd1e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70b9b5c3-fff0-4cd3-9d58-d2ea8a6c62b9 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a8f54dbd-f09c-4981-acd5-b8a759ff7bd9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8d20cf58-d45e-44b4-bbc7-28eaa7b017c9
+        userCondition: null
+handle: simpleHero
+hasTitleField: true
+name: 'Simple Hero'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

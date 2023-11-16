@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Craft 5 Alpha'
+primary: true
+siteGroup: 31110474-a02d-4a58-90c6-b573615ce349 # Craft 5 Alpha
+sortOrder: 1

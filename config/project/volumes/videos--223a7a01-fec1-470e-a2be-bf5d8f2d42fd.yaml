@@ -1,0 +1,71 @@
+fieldLayouts:
+  f24f1b93-14db-4dc3-98fa-b004e636c6cd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: d4ed8047-2b80-4481-8f70-df77ea2ef238
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 3bf89d65-9c06-47be-9a9f-93cf2bcac960
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b4749b5d-1d1a-4c63-ab92-fa525fd5710e
+        userCondition: null
+fs: uploads
+handle: videos
+name: Videos
+sortOrder: 2
+subpath: videos
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: /videos/transforms/

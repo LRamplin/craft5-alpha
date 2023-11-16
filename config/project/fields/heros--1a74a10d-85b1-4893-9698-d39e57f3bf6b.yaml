@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: heros
+instructions: null
+name: Heros
+searchable: false
+settings:
+  entryTypes:
+    - e3268953-78ca-4bfd-9a41-96bfd86142ae # Welcome Hero
+    - c7490336-5265-4665-9ed9-a4191c095756 # Simple Hero
+  includeTableView: false
+  maxEntries: 1
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

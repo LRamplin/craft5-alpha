@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: sections
+instructions: null
+name: Sections
+searchable: false
+settings:
+  entryTypes:
+    - 6a0a3ecd-d92f-4229-a0d3-cede057d4c64 # Alternating Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

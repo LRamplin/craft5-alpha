@@ -1,0 +1,57 @@
+dateModified: 1700134074
+email:
+  fromEmail: lucy@moresoda.co.uk
+  fromName: 'Craft 5 Alpha'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    host: $MAILHOG_SMTP_HOSTNAME
+    password: ''
+    port: $MAILHOG_SMTP_PORT
+    useAuthentication: '0'
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
+meta:
+  __names__:
+    1a74a10d-85b1-4893-9698-d39e57f3bf6b: Heros # Heros
+    1fac2f0f-2a5b-42c5-9ec8-9884aa24ae3c: Video # Video
+    02d1e75d-fbef-4293-8f08-41b618bb592f: Heading # Heading
+    5ccb4f34-805a-473a-adcb-c0b634195433: Videos # Videos
+    6a0a3ecd-d92f-4229-a0d3-cede057d4c64: 'Alternating Block' # Alternating Block
+    34bd3b6f-3897-43d1-b5ac-46e96103a2bb: Copy # Copy
+    50eba524-0edd-4d43-b577-f0cd4b24c7d8: Image # Image
+    68e67fa5-c166-4405-b42c-9a6ba52ac397: Common # Common
+    70b9b5c3-fff0-4cd3-9d58-d2ea8a6c62b9: Image # Image
+    97a1fc46-946a-4ad4-b4bb-ac65ace63a23: Images # Images
+    223a7a01-fec1-470e-a2be-bf5d8f2d42fd: Videos # Videos
+    913f7782-f162-4899-a94d-6e5cf17692a2: Strapline # Strapline
+    16787a3b-5f1d-4bdb-9379-6ff097260b3c: Sections # Sections
+    412781b5-74be-4b5f-a999-373e474d9b97: Addresses # Addresses
+    31110474-a02d-4a58-90c6-b573615ce349: 'Craft 5 Alpha' # Craft 5 Alpha
+    c7490336-5265-4665-9ed9-a4191c095756: 'Simple Hero' # Simple Hero
+    ca2efa40-ce02-48e0-86e5-cdb90c71c4f3: Page # Page
+    e3268953-78ca-4bfd-9a41-96bfd86142ae: 'Welcome Hero' # Welcome Hero
+    ec0f67b4-a7c0-4aa2-8985-c3bdbecc790b: Pages # Pages
+    ed77bdba-a4e5-42c3-9439-78139ddc91af: Address # Address
+    f1cfd85a-bde7-47d6-aa8d-57a541de3ddb: Home # Home
+    fe322a5a-7ef6-4754-8422-c5b2bd52d8d1: 'Craft 5 Alpha' # Craft 5 Alpha
+system:
+  edition: pro
+  live: true
+  name: 'Craft 5 Alpha'
+  schemaVersion: 5.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

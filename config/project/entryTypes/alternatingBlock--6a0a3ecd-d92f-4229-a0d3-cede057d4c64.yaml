@@ -1,0 +1,93 @@
+fieldLayouts:
+  971f5702-298e-4f59-923c-5f738846a5a3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 913f7782-f162-4899-a94d-6e5cf17692a2 # Strapline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d0f81452-32d6-477f-8adb-c1ab50762b49
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 02d1e75d-fbef-4293-8f08-41b618bb592f # Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17304233-627d-456c-9a34-94bea218731d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 34bd3b6f-3897-43d1-b5ac-46e96103a2bb # Copy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 44781fa9-8f2a-4fb6-83ba-f00002d74060
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70b9b5c3-fff0-4cd3-9d58-d2ea8a6c62b9 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45352dc0-3ae9-42a2-bc58-365978029b3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1fac2f0f-2a5b-42c5-9ec8-9884aa24ae3c # Video
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c7e08d5-1f2b-43b2-8260-7a31a4bf44a4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e5d60658-6c3e-4b6c-955a-5853f3bcbcd2
+        userCondition: null
+handle: alternatingBlock
+hasTitleField: true
+name: 'Alternating Block'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

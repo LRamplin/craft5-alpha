@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - ca2efa40-ce02-48e0-86e5-cdb90c71c4f3 # Page
+handle: pages
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  fe322a5a-7ef6-4754-8422-c5b2bd52d8d1: # Craft 5 Alpha
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: '{parent.slug}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 9dc8b5bc-5f9b-4e47-94aa-f896745cdf1f
+type: structure
