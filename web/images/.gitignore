@@ -1,0 +1,4 @@
+*
+transforms/*
+_30x14_crop_center-center_none/*
+!.gitignore

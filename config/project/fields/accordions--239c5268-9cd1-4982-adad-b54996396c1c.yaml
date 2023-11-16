@@ -1,11 +1,10 @@
 columnSuffix: null
-handle: sections
+handle: accordions
 instructions: null
-name: Sections
+name: Accordions
 searchable: false
 settings:
   entryTypes:
-    - 6a0a3ecd-d92f-4229-a0d3-cede057d4c64 # Alternating Block
     - 0d16cec4-9156-4ffa-8ed4-373afacadc5d # Accordions
   includeTableView: false
   maxEntries: null

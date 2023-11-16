@@ -1,3 +1,41 @@
-<header class="hero hero--welcome">
+{% set strapline = strapline ?? hero.strapline|default(false) %}
+{% set heading = heading ?? hero.heading|default(false) %}
+{% set media = media ?? (hero.image.one()) ? { 
+    type: 'img', 
+    asset: hero.image.one(), 
+  } : (hero.video.one()) ? {
+    type: 'vid',
+    asset: hero.video.one()
+  } : false %}
 
+{% if heading and media %}
+<header class="hero hero--welcome">
+  <div class="container">
+    {% if strapline %}
+    {% endif %}
+
+    <h1>
+      {{ heading }}
+    </h1>
+  <div>
+
+  {% switch media.type %}
+    {% case 'img' %}
+    {# Image #}
+    <picture>
+      <source srcset="{{ media.asset.getUrl('fullWidthXXXL') }}" media="(min-width:1920px)" />
+      <source srcset="{{ media.asset.getUrl('fullWidthXXL') }}" media="(min-width:1440px)" />
+      <source srcset="{{ media.asset.getUrl('fullWidthXL') }}" media="(min-width:1024px)" />
+      <source srcset="{{ media.asset.getUrl('fullWidthLG') }}" media="(min-width:768px)" />
+      <source srcset="{{ media.asset.getUrl('fullWidthMD') }}" media="(min-width:540px)" />
+      <img src="{{ media.asset.getUrl('fullWidthSM') }}" alt="{{ media.asset.alt|default('Welcome Image') }}" />
+    </picture>
+
+    {% default %}
+    {# Video #}
+    <video autoplay loop muted playsinline>
+      <source src="{{ media.asset.url }}" type="video/mp4"/>
+    </video>
+  {% endswitch %}
 </header>
+{% endif %}

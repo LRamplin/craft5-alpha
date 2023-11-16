@@ -1,24 +1,9 @@
 fieldLayouts:
-  fd83d8e8-9fa3-4a3c-be77-3ef9028c384e:
+  e25ab42f-df9b-409a-aeef-ed85b9ed8844:
     tabs:
       -
         elementCondition: null
         elements:
-          -
-            elementCondition: null
-            fieldUid: 913f7782-f162-4899-a94d-6e5cf17692a2 # Strapline
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 6102476e-7067-4a4e-96d3-cd648e4d1cf1
-            userCondition: null
-            warning: null
-            width: 100
           -
             elementCondition: null
             fieldUid: 02d1e75d-fbef-4293-8f08-41b618bb592f # Heading
@@ -30,13 +15,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 480b2bf6-835e-4731-848b-cc28ec1a04d5
+            uid: e469fe2a-5e1c-46e2-8631-a1606b344267
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 70b9b5c3-fff0-4cd3-9d58-d2ea8a6c62b9 # Image
+            fieldUid: 34bd3b6f-3897-43d1-b5ac-46e96103a2bb # Copy
             handle: null
             includeInCards: false
             instructions: null
@@ -45,13 +30,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d9e74ac0-1b0b-47e3-8463-91b8424f89a1
+            uid: a04e83f4-eeb6-4d7b-95e9-bd548a7b000a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1fac2f0f-2a5b-42c5-9ec8-9884aa24ae3c # Video
+            fieldUid: 04dbcc16-7d8e-4b2c-aa78-819dcf5126e5 # Accordion
             handle: null
             includeInCards: false
             instructions: null
@@ -60,16 +45,16 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 543c23ea-472c-47a0-ab2f-8dc2d18dca30
+            uid: 4dc0e53e-b6f5-46fc-92ac-a4653568464a
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: c5b991cd-57b8-4853-82a9-8db21b3baca7
+        name: Accordions
+        uid: e1a30c35-ccc6-4d89-97e9-93dcf45c3afe
         userCondition: null
-handle: welcomeHero
+handle: accordions
 hasTitleField: true
-name: 'Welcome Hero'
+name: Accordions
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
