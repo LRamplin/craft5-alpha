@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "mix watch",
+    "prod": "mix --production",
+    "hot": "mix watch --hot"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "laravel-mix": "^6.0.49"
+    "caniuse-lite": "^1.0.30001562",
+    "laravel-mix": "^6.0.49",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "swiper": "^11.0.4"
   }
 }
